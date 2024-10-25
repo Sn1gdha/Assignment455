@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #D1E9F6, #EECAD5);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F6EACB;
+    padding: 15px 0;
+    border-bottom: 3px solid #F1D3CE;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    
+}
+
+.navbar a:hover {
+    background-color: #EECAD5;
+    color: black;
+    
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+    line-height: 0.5;
+}
+
+.outsider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 50px;
+}
+
+.inner {
+    background-color: #F6EACB;
+    border: 2px solid #F1D3CE;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 300px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 320px;
+    cursor: pointer;
+}
+
+.inner:hover {
+    
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.inner img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #F1D3CE;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    
+}
+
+
+.inner p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
